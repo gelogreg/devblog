@@ -1,1 +1,4 @@
-script.js
+
+main = function(){
+	console.log('Main started...');
+};
