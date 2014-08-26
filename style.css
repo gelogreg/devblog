@@ -1,7 +1,35 @@
-html, body {
-	background-color: #acacac;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%; 
+body{
+	background-color: grey;
+	margin-left: auto;  
+	color: #ccc;
+	font-size: 16px;
+}
+h1{
+	padding-top: 16px;
+	font-size: 32px;
+	margin-bottom: -16px;
+}
+.blogPost{
+	display: block;
+	margin-top: 16px;
+	background-color: #333;
+	width: 768px;
+}
+.postHeader{
+	background-color: #444;
+	height: 96px;
+}
+.postBody{
+	background-color: #393939;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding: 16px;
+}
+
+.userAvatar{
+	float: left;
+	width: 64px;
+	height: 64px;
+	padding: 16px;
+	display: block;
 }
