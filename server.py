@@ -11,8 +11,9 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 		self.wfile.write(data) # write the data. (Close connection?)
 	
 	def do_GET(self):
+
 		path = self.path[1:]
-		if len(self.path) == 0: return self.resp(open('index.html').read())
+		if len(path) == 0: return self.resp(open('index.html').read())
 		elif os.path.exists(path): return self.resp(open(path).read())
 		else: return self.resp("BAD CALL")
 	
