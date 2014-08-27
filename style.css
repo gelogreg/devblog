@@ -10,6 +10,9 @@ h1{
 	font-size: 32px;
 	margin-bottom: -16px;
 }
+p{
+	/* background-color: white; */ 
+}
 .blogPost{
 	display: block;
 	margin-top: 16px;
@@ -27,10 +30,74 @@ h1{
 	padding: 16px;
 }
 
+#userList{
+	clear: both;
+	margin:16px;
+	background-color: green;
+	display: block;
+	
+}
+#chatDisplay{
+	clear: both;
+	background-color: yellow;
+	margin: 16px;
+	padding: 2px;
+}
 .userAvatar{
 	float: left;
 	width: 64px;
 	height: 64px;
 	padding: 16px;
 	display: block;
+}
+.chatAvatar{
+	margin-top: -8px;
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	padding: 16px;
+	display: block;
+}
+.chatAvatarRight{
+	margin-top: -8px;
+	display: block;
+	float: right;
+	width: 32px;
+	height: 32px;
+	padding: 16px;
+	display: block;
+}
+.chatUser{
+	clear: both;
+	display: block;
+	background-color: #555;
+	padding: 2px;
+}
+.chatItem{
+	clear: both;
+	display: block;
+	background-color: #555;
+	padding: 2px;
+	margin: 8px;
+}
+
+
+#chatInput{
+	clear: both;
+	background-color: blue;
+	margin: 16px;
+
+}
+#chatPannel{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	float: right;
+	background-color: #999;
+	width: 512px;
+}
+#chatTextarea{
+	border: 0px;
+	width: 100%;
 }
