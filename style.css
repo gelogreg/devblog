@@ -1,8 +1,9 @@
 body{
-	background-color: grey;
+	background-color: #777;
 	margin-left: auto;  
 	color: #ccc;
 	font-size: 16px;
+	font-family: Freesans;
 }
 h1{
 	padding-top: 16px;
