@@ -1,13 +1,14 @@
-
 body{
 	background-color: #777;
 	margin-left: auto;  
 	color: #ccc;
+	font-family: Freesans;
 }
 p{
-	margin-left: 16px;
 	font-size: 48px;
-	margin-bottom: 32px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+	padding-top: 16px;
 }
 input{
 	font-size: 32px;
